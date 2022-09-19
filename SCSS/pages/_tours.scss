@@ -5,16 +5,15 @@
       h2 {
         font-weight: bold;
         color:$blanco;
-        @include xlarge {
-          margin-left: 220px;
-        }
+        // @include xlarge {
+        //   margin-left: 220px;
+        // }
       }
       hr {
         width: 30vw;
         border: 3px solid $blanco;
         @include large {
           width: 12vw;
-          margin-left: 220px;
         }
       }
     }
@@ -24,9 +23,9 @@
       @include large {
         width: 35vw;
       }
-      @include xlarge {
-        margin-left: 220px;
-      }
+      // @include xlarge {
+      //   margin-left: 220px;
+      // }
     }
     .block2 {
       text-align: center;
@@ -34,10 +33,10 @@
       tbody {
         font-weight: lighter;
       }
-      @include xlarge {
-        padding-right: 50px;
-        font-size: 1.3rem;
-      }
+      // @include xlarge {
+      //   padding-right: 50px;
+      //   font-size: 1.3rem;
+      // }
     }
   }
   
@@ -98,9 +97,9 @@
         }
       }
     }
-    @include xlarge {
-      margin: 0px 220px;
-    }
+    // @include xlarge {
+    //   margin: 0px 220px;
+    // }
   }
   
   
@@ -109,9 +108,9 @@
     h2 {
       font-weight: bold;
       color: $blanco;
-      @include xlarge {
-        margin-left: 220px;
-      }
+      // @include xlarge {
+      //   margin-left: 220px;
+      // }
     }
     hr {
       width: 30vw;
@@ -119,9 +118,9 @@
       @include large {
         width: 12vw;
       }
-      @include xlarge {
-        margin-left: 220px;
-      }
+      // @include xlarge {
+      //   margin-left: 220px;
+      // }
     }
     .opiniones_card {
       background-color: $blanco;
@@ -130,9 +129,9 @@
       @include large {
         width: 360px;
       }
-      @include xlarge {
-        width: 380px;
-      }
+      // @include xlarge {
+      //   width: 380px;
+      // }
       p {
         text-align: justify;
       }

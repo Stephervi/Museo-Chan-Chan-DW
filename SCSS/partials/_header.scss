@@ -8,9 +8,9 @@ header {
           font-size: 16px;
           font-weight: bolder;
           margin: 0px;
-          @include xlarge {
-            font-size: 20px;
-          }
+          // @include xlarge {
+          //   font-size: 20px;
+          // }
         }
       }
     }
@@ -58,13 +58,13 @@ header {
       }
       img {
         filter: invert(100%);
-        @include xlarge {
-          width: 200px;
-        }
+        // @include xlarge {
+        //   width: 200px;
+        // }
       }
     }
-    @include xlarge {
-      font-size: 20px;
-    }
+    // @include xlarge {
+    //   font-size: 20px;
+    // }
   }
   

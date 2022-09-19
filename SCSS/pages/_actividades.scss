@@ -3,9 +3,9 @@
     h2 {
       font-weight: bold;
       color: $blanco;
-      @include xlarge {
-        margin-left: 220px;
-      }
+      // @include xlarge {
+      //   margin-left: 220px;
+      // }
     }
     hr {
       width: 30vw;
@@ -13,9 +13,9 @@
       @include large {
         width: 10vw;
       }
-      @include xlarge {
-        margin-left: 220px;
-      }
+      // @include xlarge {
+      //   margin-left: 220px;
+      // }
     }
     h3 {
       font-size: 1.2rem;
@@ -33,20 +33,20 @@
     span {
       background-color: #2a282835;
     }
-    @include xlarge {
-      .carousel-inner {
-        padding-left: 270px;
-        padding-right: 270px;
-      }
+    // @include xlarge {
+    //   .carousel-inner {
+    //     padding-left: 270px;
+    //     padding-right: 270px;
+    //   }
       
-      .carousel-control-next {
-          justify-content: start;
-        }
-      .carousel-control-prev {
-          justify-content: end;
-        }
+    //   .carousel-control-next {
+    //       justify-content: start;
+    //     }
+    //   .carousel-control-prev {
+    //       justify-content: end;
+    //     }
       
-    }
+    // }
   }
 
   
@@ -80,8 +80,8 @@
       }
       
     }
-    @include xlarge {
-      margin-left: 230px;
-      margin-right: 230px;
-    }
+    // @include xlarge {
+    //   margin-left: 230px;
+    //   margin-right: 230px;
+    // }
   }
