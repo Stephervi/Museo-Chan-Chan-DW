@@ -146,12 +146,6 @@ html {
   color: #692121 !important;
   font-weight: bold;
 }
-@media (min-width: 1400px) {
-  .preguntas {
-    margin-left: 220px;
-    margin-right: 220px;
-  }
-}
 
 .maincultural {
   height: auto;
@@ -167,11 +161,6 @@ html {
   font-weight: bolder;
   color: #692121;
 }
-@media (min-width: 1400px) {
-  .maincultural .contenido h2 {
-    margin-left: 220px;
-  }
-}
 .maincultural .contenido hr {
   width: 30vw;
   border: 3px solid #692121;
@@ -180,11 +169,6 @@ html {
   .maincultural .contenido hr {
     width: 15vw;
     background-color: #692121;
-  }
-}
-@media (min-width: 1400px) {
-  .maincultural .contenido hr {
-    margin-left: 220px;
   }
 }
 .maincultural .contenido h3 {
@@ -197,21 +181,8 @@ html {
     margin-bottom: 24px;
   }
 }
-@media (min-width: 1400px) {
-  .maincultural .contenido h3 {
-    font-size: 1.7rem;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-}
 .maincultural .contenido p {
   text-align: justify;
-}
-@media (min-width: 1400px) {
-  .maincultural .contenido p {
-    margin-right: 220px;
-    font-size: 1.2rem;
-  }
 }
 @media (min-width: 1200px) {
   .maincultural .contenido .px-xl-4 {
@@ -224,11 +195,6 @@ html {
 }
 .maincultural .contenido .btn p {
   margin: 0px;
-}
-@media (min-width: 1400px) {
-  .maincultural .contenido .btn {
-    margin-right: 220px;
-  }
 }
 @media (min-width: 1200px) {
   .maincultural .contenido .modal-dialog {
@@ -250,12 +216,6 @@ html {
 .maincultural .contenido .modal-dialog .modal-content p {
   font-weight: lighter;
   letter-spacing: 1px;
-}
-@media (min-width: 1400px) {
-  .maincultural .contenido .modal-dialog .modal-content p {
-    margin-left: 90px;
-    margin-right: 90px;
-  }
 }
 .maincultural .contenido .modal-dialog .modal-content .btn-close {
   background-color: #fff;
@@ -280,20 +240,9 @@ html {
     padding-right: 20px;
   }
 }
-@media (min-width: 1400px) {
-  .mainhistoria .contenido .shcontenido {
-    padding-left: 220px;
-    padding-right: 220px;
-  }
-}
 .mainhistoria .contenido h2 {
   font-weight: bold;
   color: #fff;
-}
-@media (min-width: 1400px) {
-  .mainhistoria .contenido h2 {
-    margin-left: 220px;
-  }
 }
 .mainhistoria .contenido .titulo hr {
   width: 30vw;
@@ -302,11 +251,6 @@ html {
 @media (min-width: 1200px) {
   .mainhistoria .contenido .titulo hr {
     width: 10vw;
-  }
-}
-@media (min-width: 1400px) {
-  .mainhistoria .contenido .titulo hr {
-    margin-left: 220px;
   }
 }
 .mainhistoria .contenido img {
@@ -394,34 +338,9 @@ html {
   font-weight: bold;
   color: #fff;
 }
-@media (min-width: 1400px) {
-  .maininfog .contenido .titulo h2 {
-    padding-left: 220px;
-    padding-right: 220px;
-  }
-}
 .maininfog .contenido .titulo hr {
   width: 30vw;
   border: 3px solid #fff;
-}
-@media (min-width: 1200px) {
-  .maininfog .contenido .titulo hr {
-    width: 10vw;
-  }
-}
-@media (min-width: 1400px) {
-  .maininfog .contenido .titulo hr {
-    width: 10vw;
-    margin-left: 220px;
-  }
-}
-@media (min-width: 1400px) {
-  .maininfog .contenido #carruselinfxl {
-    padding: 0px 100px;
-  }
-  .maininfog .contenido #carruselinfxl .carousel-inner {
-    padding: 50px 150px;
-  }
 }
 .maininfog h4 {
   font-weight: bold;
@@ -478,11 +397,6 @@ html {
 .maininfog .modal-dialog .modal-content .modal-body h5 {
   text-align: justify;
 }
-@media (min-width: 1400px) {
-  .maininfog .modal-dialog .modal-content .modal-body {
-    padding: 50px 90px;
-  }
-}
 
 .mainexhib {
   background-color: #692121;
@@ -492,11 +406,6 @@ html {
   font-weight: bold;
   color: #fff;
 }
-@media (min-width: 1400px) {
-  .mainexhib .contenido .titulo h2 {
-    margin-left: 220px;
-  }
-}
 .mainexhib .contenido .titulo hr {
   width: 30vw;
   border: 3px solid #fff;
@@ -504,12 +413,6 @@ html {
 @media (min-width: 1200px) {
   .mainexhib .contenido .titulo hr {
     width: 18vw;
-  }
-}
-@media (min-width: 1400px) {
-  .mainexhib .contenido .titulo hr {
-    margin-left: 220px;
-    width: 10vw;
   }
 }
 .mainexhib h4 {
@@ -543,20 +446,6 @@ html {
     height: 440px;
     object-fit: cover;
     object-position: center;
-  }
-}
-@media (min-width: 1400px) {
-  .mainexhib #carruselexhxl {
-    padding: 0px 200px;
-  }
-  .mainexhib #carruselexhxl carousel-inner {
-    padding: 50px 200px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .maininst {
-    padding: 0px 220px;
   }
 }
 

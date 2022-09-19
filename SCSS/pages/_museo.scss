@@ -9,9 +9,9 @@
       h2 {
         font-weight: bolder;
         color: $color-rojo;
-        @include xlarge {
-          margin-left: 220px;
-        }
+        // @include xlarge {
+        //   margin-left: 220px;
+        // }
       }
       hr {
         width: 30vw;
@@ -20,9 +20,9 @@
           width: 15vw;
           background-color: $color-rojo;
         }
-        @include xlarge {
-          margin-left: 220px;
-        }
+        // @include xlarge {
+        //   margin-left: 220px;
+        // }
       }
       h3 {
         font-weight: bold;
@@ -31,18 +31,18 @@
         @include large {
           margin-bottom: 24px;
         }
-        @include xlarge {
-          font-size: 1.7rem;
-          padding-left: 150px;
-          padding-right: 150px;
-        }
+        // @include xlarge {
+        //   font-size: 1.7rem;
+        //   padding-left: 150px;
+        //   padding-right: 150px;
+        // }
       }
       p {
         text-align: justify;
-        @include xlarge {
-          margin-right: 220px;
-          font-size: 1.2rem;
-        }
+        // @include xlarge {
+        //   margin-right: 220px;
+        //   font-size: 1.2rem;
+        // }
       }
       .px-xl-4 {
         @include large {
@@ -55,9 +55,9 @@
         p {
           margin: 0px;
         }
-        @include xlarge {
-          margin-right: 220px;
-        }
+        // @include xlarge {
+        //   margin-right: 220px;
+        // }
       }
       
       .modal-dialog {
@@ -77,10 +77,10 @@
           p {
             font-weight: lighter;
             letter-spacing: 1px;
-            @include xlarge {
-              margin-left: 90px;
-              margin-right: 90px;
-            }
+            // @include xlarge {
+            //   margin-left: 90px;
+            //   margin-right: 90px;
+            // }
           }
           .btn-close {
             background-color: $blanco;
@@ -108,18 +108,18 @@
       padding-right: 20px;
     }
     .contenido {
-      .shcontenido {
-        @include xlarge {
-          padding-left: 220px;
-          padding-right: 220px;
-        }
-      }
+      // .shcontenido {
+      //   // @include xlarge {
+      //   //   padding-left: 220px;
+      //   //   padding-right: 220px;
+      //   // }
+      // }
       h2 {
         font-weight: bold;
         color: $blanco;
-        @include xlarge {
-          margin-left: 220px;
-        }
+        // @include xlarge {
+        //   margin-left: 220px;
+        // }
       }
       .titulo {
         hr {
@@ -128,9 +128,9 @@
           @include large {
             width: 10vw;
           }
-          @include xlarge {
-            margin-left: 220px;
-          }
+          // @include xlarge {
+          //   margin-left: 220px;
+          // }
         }
       }
       img {
@@ -210,31 +210,31 @@
         h2 {
           font-weight: bold;
           color: $blanco;
-          @include xlarge {
-            padding-left: 220px;
-            padding-right: 220px;
-          }
+          // @include xlarge {
+          //   padding-left: 220px;
+          //   padding-right: 220px;
+          // }
         }
         hr {
           width: 30vw;
           border: 3px solid $blanco;
-          @include large {
-            width: 10vw;
-          }
-          @include xlarge {
-            width: 10vw;
-            margin-left: 220px;
-          }
+          // @include large {
+          //   width: 10vw;
+          // }
+          // @include xlarge {
+          //   width: 10vw;
+          //   margin-left: 220px;
+          // }
         }
       }
-      @include xlarge {
-        #carruselinfxl {
-          padding: 0px 100px;
-          .carousel-inner {
-            padding: 50px 150px;
-          }
-        }
-      }
+      // @include xlarge {
+      //   #carruselinfxl {
+      //     padding: 0px 100px;
+      //     .carousel-inner {
+      //       padding: 50px 150px;
+      //     }
+      //   }
+      // }
       
     }
     h4 {
@@ -285,9 +285,9 @@
         h5 {
           text-align: justify;
         }
-        @include xlarge {
-          padding: 50px 90px;
-        }
+        // @include xlarge {
+        //   padding: 50px 90px;
+        // }
       }
       }
     }  
@@ -302,9 +302,9 @@
         h2 {
           font-weight: bold;
           color:$blanco;
-          @include xlarge {
-            margin-left: 220px;
-          }
+          // @include xlarge {
+          //   margin-left: 220px;
+          // }
         }
         hr {
           width: 30vw;
@@ -312,10 +312,10 @@
           @include large {
             width: 18vw;
           }
-          @include xlarge {
-            margin-left: 220px;
-            width: 10vw;
-          }
+          // @include xlarge {
+          //   margin-left: 220px;
+          //   width: 10vw;
+          // }
         }
       }
     }
@@ -354,18 +354,18 @@
         object-position: center;
       }
     }
-    @include xlarge {
-      #carruselexhxl {
-        padding: 0px 200px;
-        carousel-inner {
-          padding: 50px 200px;
-        }
-      }
-    }
+    // @include xlarge {
+    //   #carruselexhxl {
+    //     padding: 0px 200px;
+    //     carousel-inner {
+    //       padding: 50px 200px;
+    //     }
+    //   }
+    // }
   }
 
-  .maininst {
-    @include xlarge {
-      padding: 0px 220px;
-    }
-  }
+  // .maininst {
+  //   @include xlarge {
+  //     padding: 0px 220px;
+  //   }
+  // }
